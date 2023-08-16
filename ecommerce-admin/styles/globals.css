@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input, textarea{
+  @apply border-2 border-black rounded-md px-2 mb-2;
+}
+
+input:focus, textarea:focus {
+  @apply outline-none border-blue-800;
+}
+
+h1{
+  @apply text-2xl text-blue-900 font-bold text-center mb-3;
+}
+
+label{
+  @apply text-blue-900;
+}
+
+.btn{
+  @apply bg-blue-900 rounded-lg text-white p-2 mt-2;
+}
+
+table{
+  @apply w-full mt-3;
+}
+
+td{
+  @apply border-y-2 w-full border-black p-2;
+}
+
+.heading{
+  @apply text-center text-white bg-gray-700;
+}
